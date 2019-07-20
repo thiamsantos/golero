@@ -145,5 +145,5 @@ func sample(arr []string) string {
 func main() {
 	rand.Seed(time.Now().UTC().UnixNano())
 
-	fmt.Printf("%s%s%s%s", sample(tab0), sample(tab1), sample(tab2), sample(tab3))
+	fmt.Printf("%s%s%s%s\n", sample(tab0), sample(tab1), sample(tab2), sample(tab3))
 }
